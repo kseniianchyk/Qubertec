@@ -1,0 +1,30 @@
+$color-green: #009C41;
+$color-white: #FFF;
+$color-grey: #5F5F5F;
+$color-orange: #FF7728;
+$color-blue: #21325E;
+@mixin middle-text {
+    font-size: 24px;
+    line-height: 28px;
+}
+
+@mixin small-text {
+    font-size: 14px;
+    line-height: 16px;
+}
+
+@mixin btn {
+    height: 58px;
+    border-radius: 35px;
+    font-family: Arimo-Regular;
+}
+
+@mixin action-after {
+    position: absolute;
+    bottom: -40px;
+    left: 0;
+    right: 0;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+}

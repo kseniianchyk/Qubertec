@@ -1,0 +1,154 @@
+@import 'fonts.scss';
+@import 'reset.scss';
+@import 'vars.scss';
+// header
+.header {
+    color: $color-green;
+    background: $color-white;
+    filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.2));
+    &__container {
+        padding: 35px 30px 33px 30px;
+    }
+    &__link {
+        display: flex;
+        align-items: center;
+    }
+    &__link-img {
+        border-radius: 10px;
+        background: $color-green;
+        width: 38px;
+        height: 38px;
+        text-align: center;
+        margin-left: 19px;
+        >svg {
+            margin-top: 9px;
+        }
+    }
+    &__link-person {
+        width: 160px;
+    }
+    &__link-person--bold {
+        font-weight: bold;
+    }
+    &__link-person--bold-orange {
+        font-weight: bold;
+        color: $color-orange;
+        font-size: 11px;
+        line-height: 1.5;
+    }
+}
+
+// /header
+// welcome
+.welcome {
+    background: #F5F5F5;
+    padding: 35px 62px 33px 30px;
+    &__text {
+        color: $color-grey;
+    }
+}
+
+// /welcome
+// main-text
+.main {
+    background: url(../images/main-bg.png) center no-repeat;
+    background-size: cover;
+    height: 731px;
+    color: $color-white;
+    text-align: center;
+    padding: 48px 0 70px 0;
+    &__title {
+        width: 1076px;
+        font-size: 48px;
+        line-height: 55px;
+        margin: 0 auto 79px auto;
+        border-bottom: 5px solid $color-white;
+        border-radius: 2px;
+        text-align: justify;
+        padding-right: 106px;
+        position: relative;
+        &::after {
+            content: url(../images/user.png);
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 76px;
+            height: 76px;
+        }
+    }
+    &__sub-title {
+        @include middle-text;
+        margin-bottom: 57px;
+    }
+}
+
+.second-title,
+.header__link-person--media {
+    display: none;
+}
+
+// /main-text
+// form
+.form {
+    &__content {
+        margin: 0 auto;
+    }
+    &__content-items {
+        width: 350px;
+        margin: 0 auto;
+    }
+    &__item {
+        width: 100%;
+        margin-bottom: 63px;
+    }
+    &__item-title {
+        display: block;
+        text-align: start;
+        padding: 0 43px 15px 0;
+        @include middle-text;
+    }
+    &__item-input {
+        width: 100%;
+        padding: 21px 28px 19px 56px;
+        border-radius: 35px;
+        border: 0;
+        font-family: Arimo-Regular;
+        font-size: 16px;
+    }
+    &__item-input-name {
+        position: relative;
+        >img {
+            position: absolute;
+            left: 30px;
+            top: 20px;
+            cursor: pointer;
+            width: 18px;
+            height: 18px;
+        }
+    }
+}
+
+// /form
+// btn
+.btn {
+    width: 350px;
+    @include btn;
+    @include middle-text;
+    color: $color-white;
+    &.btn--green {
+        background-color: $color-green;
+    }
+    &.btn--grey {
+        background-color: #C4C4C4;
+        margin-right: 41px;
+        position: relative;
+        &::before {
+            content: url(../images/triangle.png);
+            position: absolute;
+            top: 16px;
+            left: 110px;
+        }
+    }
+}
+
+// /btn

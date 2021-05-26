@@ -1,0 +1,247 @@
+@media (max-width: 1099px) {
+    .header__container {
+        padding: 16px 17px 17px 17px;
+    }
+    .main {
+        padding: 27px 24px;
+    }
+    .main__title {
+        width: 100%;
+        margin: 0 auto;
+        border: 0;
+    }
+    .main__title::after {
+        bottom: -10px;
+    }
+    .main__title-items {
+        margin-bottom: 26px;
+    }
+    .form {
+        width: 100%;
+    }
+    .table__head-items {
+        display: none;
+    }
+    .table__body {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .table__body-items {
+        display: block;
+        margin-bottom: 26px;
+        width: 329px;
+        padding: 15px 10px 25px 10px;
+    }
+    .table__body-items:hover {
+        background-color: #fff;
+        color: #21325E;
+    }
+    .table__body-item {
+        font-size: 20px;
+        line-height: 23px;
+        font-family: Arimo-Bold;
+        display: inline-block;
+        text-align: right;
+    }
+    .table__body-item::after {
+        content: none;
+        display: none;
+        width: 0;
+        height: 0;
+    }
+    .table__action {
+        display: block;
+        position: static;
+        width: auto;
+        text-align: end;
+        border-bottom: 2px solid #1D4076;
+        border-radius: 2px;
+        padding-bottom: 15px;
+    }
+    .table__action::before {
+        content: url(../images/car.png);
+        position: absolute;
+        right: 20px;
+        top: 26px;
+    }
+    .table__action>button {
+        width: 40px;
+        height: 40px;
+        margin-right: 15px;
+        padding: 0;
+        background: #009C41;
+    }
+    .table__submit-mail::before {
+        content: url("../images/send-mail-white.png");
+    }
+    .table__submit-mail::after {
+        content: none;
+    }
+    .table__edit-mail::before {
+        content: url('../images/pencil-white.png');
+    }
+    .table__edit-mail::after {
+        content: none;
+    }
+    .col-1 {
+        display: none;
+    }
+    .col-2 {
+        width: auto;
+        display: block;
+    }
+    .col-2::before {
+        content: 'קולקטיב';
+        font-size: 18px;
+        line-height: 21px;
+        color: #797979;
+        display: block;
+    }
+    .col-3 {
+        width: auto;
+        display: block;
+    }
+    .col-3::before {
+        content: "שם מבוטח";
+        font-size: 18px;
+        line-height: 21px;
+        color: #797979;
+        display: block;
+    }
+    .col-4 {
+        width: auto;
+    }
+    .col-4::before {
+        content: 'תעודת זהות';
+        font-size: 18px;
+        line-height: 21px;
+        color: #797979;
+        display: block;
+    }
+    .col-5 {
+        width: auto;
+        padding-right: 64px;
+    }
+    .col-5::before {
+        content: 'פתיחת הצעה';
+        font-size: 18px;
+        line-height: 21px;
+        color: #797979;
+        display: block;
+    }
+    .col-6 {
+        width: auto;
+    }
+    .col-6::before {
+        content: 'פתיחת הצעה';
+        font-size: 18px;
+        line-height: 21px;
+        color: #797979;
+        display: block;
+    }
+    .col-7 {
+        width: auto;
+        padding-right: 54px;
+    }
+    .col-7::before {
+        content: "תחילת ביטוח";
+        font-size: 18px;
+        line-height: 21px;
+        color: #797979;
+        display: block;
+    }
+    .col-8 {
+        width: auto;
+        display: table-cell;
+        vertical-align: bottom;
+        padding: 0 14px;
+    }
+    .col-8::before {
+        content: "פוליסה";
+        font-size: 18px;
+        line-height: 21px;
+        color: #797979;
+        display: block;
+    }
+    .col-9 {
+        width: auto;
+        display: table-cell;
+        vertical-align: bottom;
+        padding: 0;
+    }
+    .col-9::before {
+        content: "(נשלחה ללקוח)";
+        font-family: Arimo-Bold;
+        font-size: 20px;
+        line-height: 23px;
+        color: #009C41;
+        display: block;
+    }
+    .checkbox,
+    .checkbox-label,
+    .checkbox+label {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .header__link-person--media {
+        display: block;
+        width: 150px;
+    }
+    .header__link-person {
+        display: none;
+    }
+    .header__link-img {
+        border-radius: 10px;
+    }
+    .main__title {
+        padding-right: 0;
+    }
+    .main__title::after {
+        display: none;
+    }
+    .form__action {
+        border-bottom: 3px solid #fff;
+        border-radius: 2px;
+        padding-bottom: 26px;
+    }
+    .form__btn {
+        width: 40px;
+        height: 40px;
+    }
+    .form__btn-item::before {
+        content: url(../images/plus.png);
+        position: absolute;
+        top: 8px;
+        left: 0;
+        right: 0;
+        z-index: 99;
+    }
+    .form__search-input {
+        padding: 12px 25px 9px 55px;
+    }
+    .form__search-btn {
+        top: 8px;
+    }
+    .main__title-link {
+        font-size: 18px;
+        line-height: 21px;
+        padding: 10px 0;
+    }
+}
+
+@media (max-width: 374px) {
+    .main {
+        background: url(../images/main-small-bg.png) center no-repeat;
+        background-size: cover;
+    }
+    .col-5 {
+        padding-right: 10px;
+    }
+    .col-7 {
+        padding-right: 0;
+    }
+}

@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  background-color: #ffffff;
+  font-family: Arimo-Regular; }
+
+a {
+  text-decoration: none;
+  color: #ffffff; }
+
+ul {
+  padding: 0;
+  margin: 0; }
+
+li {
+  list-style: none; }
+
+button {
+  cursor: pointer;
+  outline: none;
+  border: none; }
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0; }
+
+input {
+  outline: none;
+  cursor: pointer;
+  margin: 0; }
+
+input[type='search']::-webkit-search-decoration,
+input[type='search']::-webkit-search-cancel-button,
+input[type='search']::-webkit-search-results-button,
+input[type='search']::-webkit-search-results-decoration {
+  display: none; }
+
+/*# sourceMappingURL=reset.css.map */

@@ -1,0 +1,116 @@
+@media (max-width: 1099px) {
+    .welcome,
+    .main {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    .header__container {
+        padding: 13px 17px 11px 17px;
+    }
+    .main {
+        height: 100%;
+    }
+    .main__title {
+        width: 100%;
+    }
+    .btn.btn--grey {
+        margin: 30px 0 0 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .main__title {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 425px) {
+    .welcome {
+        display: none;
+    }
+    .header__link-person--media {
+        display: block;
+        font-size: 10px;
+        line-height: 10px;
+        width: 108px;
+    }
+    .header__link-person {
+        display: none;
+    }
+    .header__link-img {
+        width: 30px;
+        height: 30px;
+    }
+    .header__link-img>svg {
+        width: 15px;
+        height: 15px;
+        margin-top: 7px;
+    }
+    .main {
+        padding: 16px 24px 66px 24px;
+        background: url(../images/main-small-bg.png) center no-repeat;
+        background-size: cover;
+    }
+    .main__sub-title {
+        font-size: 19px;
+    }
+    .main__title {
+        font-size: 24px;
+        line-height: 28px;
+        padding: 0 46px 12px 0;
+        border-bottom: 3px solid #FFF;
+        margin: 0 auto 48px auto;
+    }
+    .main__title::after {
+        content: url(../images/user-small.png);
+        width: 36px;
+        height: 36px;
+        bottom: 22px;
+    }
+    .first-title {
+        display: none;
+    }
+    .second-title {
+        display: block;
+        width: 217px;
+    }
+    .form__content-items {
+        width: 100%;
+    }
+    .form__item {
+        margin-bottom: 56px;
+    }
+    .form__item-title {
+        font-size: 18px;
+        line-height: 21px;
+        padding: 0px 22px 13px 0;
+    }
+    .form__item-input {
+        padding: 13px 18px 13px 45px;
+    }
+    .form__item-input-name>img {
+        left: 18px;
+        top: 15px;
+        width: 14px;
+        height: 14px;
+    }
+    .form__btns {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 36px;
+    }
+    .btn {
+        font-size: 18px;
+        line-height: 21px;
+        width: 150px;
+        height: 40px;
+    }
+    .btn.btn--grey {
+        margin: 0 18px 0 0;
+    }
+    .btn.btn--grey.btn.btn--grey::before {
+        left: 15px;
+        top: 12px;
+    }
+}
